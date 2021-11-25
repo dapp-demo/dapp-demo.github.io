@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" height="38" width="38">
+    <defs>
+        <linearGradient id="a" y2="23.865%" x2="65.682%" y1="0%" x1="8.042%">
+            <stop offset="0%" stop-opacity="0" stop-color="rgba(255,105,180,0.8)"></stop>
+            <stop offset="63.146%" stop-opacity=".631" stop-color="rgba(255,105,180,0.5)"></stop>
+            <stop offset="100%" stop-color="rgba(255,105,180,0.9)"></stop>
+        </linearGradient>
+    </defs>
+    <g fill-rule="evenodd" fill="none">
+        <g transform="translate(1 1)">
+            <path stroke-width="2" stroke="url(#a)" id="Oval-2" d="M36 18c0-9.94-8.06-18-18-18">
+                <animateTransform repeatCount="indefinite" dur="1.5s" type="rotate" attributeName="transform"></animateTransform>
+            </path>
+            <circle r="1" cy="18" cx="36" fill="rgba(255,0,255,0.9)">
+                <animateTransform repeatCount="indefinite" dur="1.5s" type="rotate" attributeName="transform"></animateTransform>
+            </circle>
+        </g>
+    </g>
+</svg>
