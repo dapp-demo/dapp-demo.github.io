@@ -1,46 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <title>DApp</title>
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"
-    />
-    <meta http-equiv="refresh" content="0;URL='/'"></meta>
-    <script>
-      sessionStorage.redirect = location.href;
-    </script>
-  </head>
-<style>
-  body {
-    margin: 0px;
-  }
-  .gp-404 {
-    height: 100vh;
-    color: #261d0b;
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-    /* background: url('assets/images/bgc.png'); */
-    /* background-size: cover; */
-  }
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><link rel="shortcut icon" href="favicon.ico"/><title>DApp Demo</title><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><meta http-equiv="refresh" content="0;URL='/'"><style>body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .brv-loader {
+        line-height: 176px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+      }
 
-  div.inner {
-    width: 50%;
-  }
-  .inner h1 {
-    color: #261d0b;
-    font-size: 8.75rem;
-  }
-</style>
-  <body>
-    <div class="gp-404">
-      <div class="inner">
-        <h1>Loading...</h1>
-      </div>
-    </div>
-  </body>
-</html>
+      .brv-loader svg {
+        color: #ff7f50;
+        vertical-align: middle;
+      }</style></head><body><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" style="position: absolute; width: 0px; height: 0px; overflow: hidden"><symbol id="sping-circle" viewBox="0 0 58 58"><g fill="none" fill-rule="evenodd"><g transform="translate(2 1)" stroke="rgba(255,153,51,0.2)" stroke-width="1.5"><circle cx="42.601" cy="11.462" r="5" fill-opacity="1" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="1;0;0;0;0;0;0;0" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="49.063" cy="27.063" r="5" fill-opacity="0" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;1;0;0;0;0;0;0" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="42.601" cy="42.663" r="5" fill-opacity="0" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;1;0;0;0;0;0" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="27" cy="49.125" r="5" fill-opacity="0" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;1;0;0;0;0" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="11.399" cy="42.663" r="5" fill-opacity="0" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;1;0;0;0" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="4.938" cy="27.063" r="5" fill-opacity="0" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;0;1;0;0" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="11.399" cy="11.462" r="5" fill-opacity="0" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;0;0;1;0" calcMode="linear" repeatCount="indefinite"/></circle><circle cx="27" cy="5" r="5" fill-opacity="0" fill="#ff7f50"><animate attributeName="fill-opacity" begin="0s" dur="1.3s" values="0;0;0;0;0;0;0;1" calcMode="linear" repeatCount="indefinite"/></circle></g></g></symbol></svg><div class="brv-loader"><svg aria-hidden="true" width="50" height="50" fillColor="currentColor"><use xlink:href="#sping-circle"></use></svg></div><script>setTimeout(function () {
+        sessionStorage.redirect = location.href
+        }, 8000);</script></body></html>
