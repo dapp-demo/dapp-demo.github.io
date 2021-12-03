@@ -106,3 +106,9 @@
 > Release v0.3.1
  Publish At: 2021-12-5 By dapp-demo<shopee.gray@gmail.com>
 ---
+
+# Version 0.3.1-8f9ed53
+    
+> Release v0.3.1
+ Publish At: 2021-12-5 By dapp-demo<shopee.gray@gmail.com>
+---
