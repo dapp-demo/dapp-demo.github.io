@@ -280,3 +280,9 @@
 > Release v0.7.4
  Publish At: 2021-12-25 By dapp-demo<shopee.gray@gmail.com>
 ---
+
+# Version 0.8.0-c303866
+    
+> Release v0.8.0
+ Publish At: 2021-12-25 By dapp-demo<shopee.gray@gmail.com>
+---
