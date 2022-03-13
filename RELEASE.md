@@ -322,3 +322,9 @@
 > Release v2.1.0
  Publish At: 2022-3-13 By dapp-demo<shopee.gray@gmail.com>
 ---
+
+# Version 2.1.1-40e63f4
+    
+> Release v2.1.1
+ Publish At: 2022-3-14 By dapp-demo<shopee.gray@gmail.com>
+---
